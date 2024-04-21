@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://radiant-meadow-30694.herokuapp.com/posts';
+const url = 'https://memory-server-4d439fbde251.herokuapp.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
